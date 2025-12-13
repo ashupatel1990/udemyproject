@@ -1,8 +1,8 @@
-// @import 'icons/style.css';
+@import 'icons/style.scss';
 @import 'global.scss';
 @import 'header.scss';
 @import 'footer.scss';
-// @import 'slider.scss';  
+@import 'slider.scss';  
 // @import 'section/about.scss';
 // @import 'section/payment-gateway.scss';
 // @import 'section/blog-list.scss'; 
@@ -11,7 +11,7 @@
 // @import 'section/testimonial.scss'; 
 // @import 'section/case-studies.scss';  
 
-
+@tailwind utilities;
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
