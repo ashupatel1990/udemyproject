@@ -4,22 +4,30 @@ import { Menu } from "@/components/Header/Menu/Menu";
 import Slider from "@/components/Slider/slider";
 import Service from "@/components/Services/service";
 import Footer from "@/components/Footer/footer";
+import Paymentgateway from "@/components/PaymentGateway/paymentgateway";
+import Casestudy from "@/components/Casestudy/Casestudy";
+import Testimonials from "@/components/Testimonials/Testimonials";
+import Blog from "@/components/Blog/Blog";
 
 export default function Home() {
-  return (
-    <div className="overflow-x-hidden">
-      <header id="header">
-        <TopNav />
-        <Menu />
-      </header>
-      <main className="content">
-        <Slider />
-        <Service />
-      </main>
+    return (
+        <div className="overflow-x-hidden">
+            <header id="header">
+                <TopNav />
+                <Menu />
+            </header>
+            <main className="content">
+                <Slider />
+                <Service />
+                <Paymentgateway />
+                <Casestudy />
+                <Testimonials />
+                <Blog />
+            </main>
 
-      <footer id="footer">
-        <Footer/>
-      </footer>
-    </div>
-  );
+            <footer id="footer">
+                <Footer />
+            </footer>
+        </div>
+    );
 }
