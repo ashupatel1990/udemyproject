@@ -93,9 +93,6 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-
-
-
                             <div className='footer-nav-item'>
                                 <div className='item-heading text-button-sm text-white'>
                                     Blog
