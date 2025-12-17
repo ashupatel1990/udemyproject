@@ -16,7 +16,7 @@ export const Menu = () => {
                 <div className='container flex items-center justify-between h-20'>
                     <Link href='/' className='menu-left-block'>
                         <Image src={'/images/Logo.png'} alt='logo' width={200} height={200} priority={true}
-                        className='w-[149px] max-sw:w-[132px]'
+                        className='w-37 max-sw:w-33'
                         />
                     </Link> 
 

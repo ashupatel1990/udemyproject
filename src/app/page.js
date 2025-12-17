@@ -8,6 +8,7 @@ import Paymentgateway from "@/components/PaymentGateway/paymentgateway";
 import Casestudy from "@/components/Casestudy/Casestudy";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Blog from "@/components/Blog/Blog";
+import Partner from "@/components/Partner/Partner";
 
 export default function Home() {
     return (
@@ -24,7 +25,7 @@ export default function Home() {
                 <Testimonials />
                 <Blog />
             </main>
-
+            <Partner />
             <footer id="footer">
                 <Footer />
             </footer>
